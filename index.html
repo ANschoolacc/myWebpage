@@ -1,79 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="mypage.css">
-</head>
-<body>
-  <header>
-    <img src="img/myself.jpg" alt="myself" height="250px">
-    <h1>Albin Nilsson</h1>
-    <div id="nav">
-    <nav id="aboutbtn">Om mig</nav>
-    <nav id="workbtn">Arbetsliv</nav>
-   <nav id="projectbtn">Mina projekt</nav>
-   <nav id="contactbtn">Kontakt</nav>
-  </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mypage.css" />
+  </head>
+  <body>
+    <div id="ContainerOne">
+      <header>
+        <div id="name_img">
+          <img src="img/myself.jpg" alt="myself" id="portrait" />
+          <div id="name_title">
+            <h1>Albin Nilsson</h1>
+            <h2>Fullstack developer in training</h2>
+          </div>
+        </div>
+        <div id="nav">
+          <a id="aboutbtn" href="#aboutMe">About me</a>
+          <a id="workbtn" href="#resume">Resumé</a>
+          <a id="projectbtn" href="#projects">My projects</a>
+          <a id="contactbtn" href="#contact">Contact</a>
+        </div>
 
-  <main>
-    <p id="welcome">Hej och välkommen till min hemsida! Jag använder denna sida för att introducera vem jag är och visa på vad jag kan.</p>
+        <p>
+          Hi and welcome to my webpage! On here i will introduce who i am, my
+          work history and what projects i've done in the past.
+        </p>
+      </header>
+    </div>
+    <div class="divider">&#x3030;About me&#x3030;</div>
+    <div id="ContainerTwo">
+      <div id="aboutMe">
+        <p class="text">
+          My name is Albin Nilsson. I was born in 1998 and i live in Örebro,
+          Sweden.
+          <br />
+          <br />
+          My biggest intrests in life are outdoorlife, videogames and
+          weightlifting.
+          <br />
+          I love being out in nature wether it's hiking, fishing or just taking
+          a stroll in the nearby woods.
+          <br />
+          <br />
+          Videogames have always been a big part of my life. Ever since i played
+          the first Super Mario on NES as a child i've been stuck. Since then i
+          have played hundreds of games and owned countless consoles and PC's.
+          <br />
+          <br />
+          Weightlifting is also a big part of my life as it's my way let of
+          steam and keeping active. I have been training weightlifting on and
+          off since i was about 14 years old.
+        </p>
+      </div>
+    </div>
+    <div class="divider">&#x3030;Resumé&#x3030;</div>
+    <div id="ContainerThree">
+      <div id="resume">
+        <ul class="text">
+          <li>
+            2017 &#12336; Examinated from 3 year gymnasial plumbing program
+          </li>
+          <br />
+          <li>
+            2017-2020 &#12336; Employed as a plumber and solarpanelfitter in the
+            private sector at Nordic Energy Partner AB.
+          </li>
+          <br />
+          <li>
+            2020-2023 &#12336; Employed as a plumber in the private sector at
+            Leijonborgs rör AB.
+          </li>
+          <br />
+          <li>
+            2023 &#12336; Started Agile systemdeveloper java/javascript
+            education at Lernia. Will examinate at SEQF level 5 in 2025.
+          </li>
+        </ul>
+      </div>
+    </div>
 
-   
+    <div class="divider">&#x3030;Projects&#x3030;</div>
 
-   <div id="aboutme" hidden >
-    
+    <div id="ContainerFour">
+      <div id="projects">
+        <a href="https://anschoolacc.github.io/Knockout/" target="_blank"
+          >Knockout-game</a
+        >
+        <a
+          href="https://anschoolacc.github.io/todoapp_uppgift4/"
+          target="_blank"
+          >Todo-app</a
+        >
+      </div>
+    </div>
+    <footer id="contact">
+      <div class="divider">&#x3030;Contact&#x3030;</div>
+      <ul id="contactInfo">
+        <li>Email: albinchnilsson@gmail.com</li>
+        <br />
+        <li>Github: ANschoolacc</li>
+      </ul>
+    </footer>
 
-    <p>
-      Mitt namn är Albin Nilsson. Jag är född 1998 och uppvuxen i östra Närke strax utanför Örebro. Jag bor idag ihop med min sambo Elin och katt "Vicke" i en villa i Örebro. 
-    </p>
-
-    <p>
-      Mina största intressen är friluftsliv, tv-spel och träning.
-    </p>
-
-    <p>
-      Jag älskar att vara ute i naturen vare sig det är på ett vandringsled, sommarstuga i lappland eller bara en promenad i närliggande skog. Stora delar av sommrarna brukar också bestå av hobby fiske. 
-    </p>
-
-    <p>
-      Tv-spel har alltid varit en del av mitt liv. Ända sedan jag första gången fick testa Super Mario på NES hos en vän som liten har jag varit fast. Sedan dess har jag spelat hundratals spel och ägt otaliga konsoler och datorer. 
-    </p>
-
-    <p>
-      Styrketräning är också en stor del av mitt liv. Jag har tränat styrkelyftning på gym sedan jag var ca 14 år gammal till och från. Det är ett mycket bra verktyg för mig att slappna av och hålla mig aktiv.
-    </p>
-
-  </div>
-
-  <div id="contactinfo" hidden>
-    <p>Mobil: 076-105 37 15</p>
-    <p>Email: albinchnilsson@gmail.com</p>
-    <p>Ort: Örebro</p>
-  </div>
-
-  <div id="myprojects" hidden>
-    <nav>Knockout-spel</nav>
-    <nav>Bank app</nav>
-  </div>
-
-  <div id="work" hidden>
-    <p>
-      På gymnasiet valde jag att gå utbildningen VVS- och fastighetsprogrammet. I och med att detta var en arbetsförberedande utbildning gick jag direkt efter examinationen in i arbetslivet som VVS-montör.
-    </p>
-    <p>
-       Jag arbetade som VVS-montör i ca 6 års tid hos två olika arbetsgivare. Som VVS-montör i service sektorn har jag fått goda egenskaper i kundbemötande, problemlösning, felsökning samt självständigt arbete. 
-    </p>
-    <p>
-      Men efter dessa 6 år ville jag sadla om till något annat och valde att gå utbildningen agil systemutvecklare inom Java och Javascript på Lernia yrkeshögskola. Så jag är just nu i processen att gå färdigt denna utbildning.
-    </p>
-
-  </div>
-
-
-  </main>
-  <script src="mypage.js"></script>
-</body>
+    <script src="mypage.js"></script>
+  </body>
 </html>
