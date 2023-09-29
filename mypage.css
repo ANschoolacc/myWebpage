@@ -8,6 +8,7 @@ body {
   margin: 0px;
   cursor: default;
   user-select: none;
+  overflow-wrap: break-word;
 }
 
 #ContainerOne {
@@ -65,32 +66,21 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-#portrait {
-  height: 200px;
-  border: none;
-  border-radius: 100%;
+br {
+  height: 10vh;
 }
 
 header {
   display: flex;
   height: 100vh;
-
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.249);
 }
 
-header p {
-  font-size: 2vw;
-  width: 550px;
-  line-height: 45px;
-  margin: 0px;
-  padding: 10px;
-  margin-left: 40px;
-  border-radius: 10px;
-  color: azure;
-  font-family: "Courier New", Courier, monospace;
-  text-shadow: 0px 2px 2px rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.571);
+#portrait {
+  height: 200px;
+  border: none;
+  border-radius: 100%;
 }
 
 #name_img {
@@ -111,6 +101,7 @@ header p {
 #nav {
   display: flex;
   font-size: 2vw;
+  height: fit-content;
   font-weight: 600;
   justify-content: center;
   flex-direction: row;
@@ -138,6 +129,21 @@ a:active {
   text-shadow: 0px 2px 4px rgb(0, 0, 0);
 }
 
+header p {
+  font-size: 2vw;
+  height: auto;
+  width: 550px;
+  line-height: 45px;
+  margin: 0px;
+  padding: 10px;
+  margin-left: 40px;
+  border-radius: 10px;
+  color: azure;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0px 2px 2px rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.571);
+}
+
 #aboutMe {
   display: flex;
   align-items: center;
@@ -163,7 +169,6 @@ a:active {
 #resume {
   display: flex;
   align-items: center;
-  font-size: 26px;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.249);
 }
