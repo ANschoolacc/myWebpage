@@ -211,3 +211,8 @@ a:active {
   cursor: text;
   user-select: text;
 }
+
+#contactInfo a {
+  margin: 0px;
+  padding: 0px;
+}
