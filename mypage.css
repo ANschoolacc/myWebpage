@@ -124,7 +124,7 @@ a:active {
   text-shadow: 0px 2px 4px rgb(0, 0, 0);
 }
 
-header p {
+#intro {
   font-size: 2vw;
   height: auto;
   width: 550px;
@@ -139,18 +139,9 @@ header p {
   background-color: rgba(0, 0, 0, 0.571);
 }
 
-#aboutMe {
-  display: flex;
-  align-items: center;
-  justify-content: stretch;
-  font-size: 26px;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.249);
-}
-
 .text {
   font-family: "Courier New", Courier, monospace;
-  font-size: 1.5vw;
+  font-size: 3vh;
   line-height: 45px;
   margin: 40px;
   padding: 10px;
@@ -161,6 +152,15 @@ header p {
   list-style: none;
 }
 
+#aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  font-size: 26px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.249);
+}
+
 #resume {
   display: flex;
   align-items: center;
@@ -169,8 +169,11 @@ header p {
 }
 
 #resume ul {
-  height: fit-content;
   width: 80vh;
+}
+
+#resume div {
+  height: 2vw;
 }
 
 #projects {
