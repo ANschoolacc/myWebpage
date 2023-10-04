@@ -68,7 +68,7 @@ body {
 
 header {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.249);
 }
@@ -127,7 +127,7 @@ a:active {
 #intro {
   font-size: 2vw;
   height: auto;
-  width: 550px;
+  max-width: 550px;
   line-height: 45px;
   margin: 0px;
   padding: 10px;
@@ -157,14 +157,14 @@ a:active {
   align-items: center;
   justify-content: stretch;
   font-size: 26px;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.249);
 }
 
 #resume {
   display: flex;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.249);
 }
 
@@ -181,7 +181,7 @@ a:active {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.249);
 }
 
@@ -203,7 +203,7 @@ a:active {
   align-items: center;
   text-shadow: none;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(194, 194, 171);
 }
 
